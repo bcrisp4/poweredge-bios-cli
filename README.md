@@ -16,9 +16,9 @@ Everything is subject to change. Nothing is guaranteed to work.
 
 ## How to install
 
-1. `git clone https://github.com/bcrisp4/poweredge-bios-cli.git'
-2. cd poweredge-bios-cli
-3. pip install .
+1. `git clone https://github.com/bcrisp4/poweredge-bios-cli.git`
+2. `cd poweredge-bios-cli`
+3. `pip install .`
 
 ...(probably)
 
