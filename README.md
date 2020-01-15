@@ -9,10 +9,10 @@ It's very early days
 Everything is subject to change. Nothing is guaranteed to work.
 
 ## Requirements
-
-1. A Dell PowerEdge server running a supported iDRAC version
-2. The Redfish API enabled on said iDRAC
-3. The credentials for an account on said iDRAC with at least "read-only" permissions
+1. Python >= 3.6
+2. A Dell PowerEdge server running a supported iDRAC version
+3. The Redfish API enabled on said iDRAC
+4. The credentials for an account on said iDRAC with at least "read-only" permissions
 
 ## How to install
 
