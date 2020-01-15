@@ -18,11 +18,11 @@ from poweredge_bios_cli.client import Client
 @click.pass_context
 def cli(ctx, username, password, host, ssl_verify):
     '''
-    A command line interface for the Dell PowerEdge server BIOS using
+    A command-line interface for the Dell PowerEdge server BIOS using
     the RedFish API.
 
     NOTE: RedFish must be enabled on the server iDRAC for this to work
-    and the user you specif must have the relevant permissions granted
+    and the user you specify must have the relevant permissions granted
     to interact with the BIOS via the API.
 
     The options --host, --username and --password are required.

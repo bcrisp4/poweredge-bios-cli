@@ -1,6 +1,6 @@
 # poweredge-bios-cli
 
-A Python CLI applications for obtaining BIOS settings/attributes from Dell PowerEdge servers uisng the Redfish API.
+A Python CLI application for obtaining BIOS settings/attributes from Dell PowerEdge servers using the Redfish API.
 
 ## Project Status: WIP
 
@@ -12,7 +12,7 @@ Everything is subject to change. Nothing is guaranteed to work.
 
 1. A Dell PowerEdge server running a supported iDRAC version
 2. The Redfish API enabled on said iDRAC
-3. The credentials for an account on said iDRAC with at least "readonly" premissions
+3. The credentials for an account on said iDRAC with at least "read-only" permissions
 
 ## How to install
 
@@ -30,11 +30,11 @@ Full usage:
 ```
 Usage: poweredge-bios-cli [OPTIONS] COMMAND [ARGS]...
 
-  A command line interface for the Dell PowerEdge server BIOS using the
+  A command-line interface for the Dell PowerEdge server BIOS using the
   RedFish API.
 
   NOTE: RedFish must be enabled on the server iDRAC for this to work and the
-  user you specif must have the relevant permissions granted to interact
+  user you specify must have the relevant permissions granted to interact
   with the BIOS via the API.
 
   The options --host, --username and --password are required. If these
@@ -61,5 +61,6 @@ Commands:
 
 - https://www.dmtf.org/standards/redfish
 - https://www.dell.com/support/manuals/uk/en/ukbsdt1/idrac7-8-lifecycle-controller-v2.40.40.40/redfish%202.40.40.40/overview?guid=guid-e85fd9c0-f4d1-4eff-be5d-550ebb77ff0d&lang=en-us
+
 
 
