@@ -14,6 +14,14 @@ Everything is subject to change. Nothing is guaranteed to work.
 2. The Redfish API enabled on said iDRAC
 3. The credentials for an account on said iDRAC with at least "readonly" premissions
 
+## How to install
+
+1. `git clone https://github.com/bcrisp4/poweredge-bios-cli.git'
+2. cd poweredge-bios-cli
+3. pip install .
+
+...(probably)
+
 ## How to use
 
 `poweredge-bios-cli -h <idrac_hostname> -U <idrac_username> -P <idrac_password> get <bios_attribute|all>`
