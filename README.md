@@ -24,7 +24,9 @@ Everything is subject to change. Nothing is guaranteed to work.
 
 ## How to use
 
-`poweredge-bios-cli -h <idrac_hostname> -U <idrac_username> -P <idrac_password> get <bios_attribute|all>`
+`poweredge-bios-cli -h <idrac_hostname> -u <idrac_username> -p <idrac_password> get <bios_attribute|all>`
+
+Don't want to have the password in the command? Very sensible. Just omit the -p option and you'll be promted to enter it interactively (also works for host/-h and user/-u).
 
 Full usage:
 ```
